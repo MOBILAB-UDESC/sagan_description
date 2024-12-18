@@ -150,7 +150,7 @@
     type="fixed">
     <origin
       xyz="-0.185 -0.031 0.04225"
-      rpy="0 -1.5068 0" />
+      rpy="0 -1.5708 0" />
     <parent
       link="Left_arm" />
     <child
@@ -256,7 +256,7 @@
     type="fixed">
     <origin
       xyz="0.185 -0.031 0.04225"
-      rpy="0 1.5683 0" />
+      rpy="0 1.5708 0" />
     <parent
       link="Left_arm" />
     <child
@@ -415,7 +415,7 @@
     type="fixed">
     <origin
       xyz="0.185 -0.031 0.04225"
-      rpy="3.1416 1.5372 3.1416" />
+      rpy="3.1416 1.5708 3.1416" />
     <parent
       link="Right_arm" />
     <child
@@ -521,7 +521,7 @@
     type="fixed">
     <origin
       xyz="-0.185 -0.031 0.04225"
-      rpy="0 -1.3763 0" />
+      rpy="0 -1.5708 0" />
     <parent
       link="Right_arm" />
     <child
