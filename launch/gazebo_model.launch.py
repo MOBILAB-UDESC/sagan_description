@@ -34,6 +34,23 @@ def generate_launch_description():
         output="screen",        
     )
     
+    diff_drive_base_controller_spawner = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=[
+            'diff_drive_base_controller',
+            '--param-file',
+            os.path.join(get_package_share_directory("sagan_description"), "parameters/my_controllers.yaml"),
+            ],
+    )
+    
+    joint_state_broadcaster_spawner = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=['joint_state_broadcaster'],
+    )
+    
+    
     nodeRobotStatePublisher = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
@@ -74,6 +91,8 @@ def generate_launch_description():
     launchDescriptionObject.add_action(spawnModelNodeGazebo)
     launchDescriptionObject.add_action(nodeRobotStatePublisher)
     launchDescriptionObject.add_action(start_gazebo_ros_bridge_cmd)
+    launchDescriptionObject.add_action(joint_state_broadcaster_spawner)
+    launchDescriptionObject.add_action(diff_drive_base_controller_spawner)
     #launchDescriptionObject.add_action(nodeJointStatePublisher)
     return launchDescriptionObject
     

@@ -5,7 +5,9 @@
 <robot name="Sagan" xmlns:xacro="http://ros.org/wiki/xacro">
   
   <xacro:include filename="$(find sagan_description)/model/Sagan.gazebo"/>
-  
+  <xacro:include filename="$(find sagan_description)/model/ros2_control.xacro"/>
+
+
   <link name="base_footprint"></link>
     <joint name="base_link_joint" type="fixed">
       <parent link="base_footprint"/>
