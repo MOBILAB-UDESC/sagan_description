@@ -1,4 +1,0 @@
-Invoking command in '/home/mene/sagan_description/build/sagan_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mene/sagan_description/build/sagan_description -- -j8 -l8
-Invoked command in '/home/mene/sagan_description/build/sagan_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mene/sagan_description/build/sagan_description -- -j8 -l8
-Invoking command in '/home/mene/sagan_description/build/sagan_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mene/sagan_description/build/sagan_description
-Invoked command in '/home/mene/sagan_description/build/sagan_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mene/sagan_description/build/sagan_description
