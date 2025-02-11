@@ -1,0 +1,9 @@
+/home/mene/sagan_description/build/sagan_description/CMakeFiles/uninstall.dir
+/home/mene/sagan_description/build/sagan_description/CMakeFiles/sagan_description_uninstall.dir
+/home/mene/sagan_description/build/sagan_description/CMakeFiles/test.dir
+/home/mene/sagan_description/build/sagan_description/CMakeFiles/edit_cache.dir
+/home/mene/sagan_description/build/sagan_description/CMakeFiles/rebuild_cache.dir
+/home/mene/sagan_description/build/sagan_description/CMakeFiles/list_install_components.dir
+/home/mene/sagan_description/build/sagan_description/CMakeFiles/install.dir
+/home/mene/sagan_description/build/sagan_description/CMakeFiles/install/local.dir
+/home/mene/sagan_description/build/sagan_description/CMakeFiles/install/strip.dir

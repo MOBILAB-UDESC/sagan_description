@@ -1,0 +1,43 @@
+[0.029s] Invoking command in '/home/mene/sagan_description/build/sagan_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mene/sagan_description/build/sagan_description -- -j8 -l8
+[0.105s] Invoked command in '/home/mene/sagan_description/build/sagan_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mene/sagan_description/build/sagan_description -- -j8 -l8
+[0.121s] Invoking command in '/home/mene/sagan_description/build/sagan_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mene/sagan_description/build/sagan_description
+[0.133s] -- Install configuration: ""
+[0.134s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/launch
+[0.135s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/launch/gazebo_model.launch.py
+[0.135s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model
+[0.135s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/Sagan.xacro.urdf
+[0.136s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes
+[0.136s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/LF_wheel.STL
+[0.136s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/RF_stering_arm.STL
+[0.137s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/Right_arm.STL
+[0.137s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/LR_stering_arm.STL
+[0.137s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/RR_wheel.STL
+[0.138s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/Left_arm.STL
+[0.138s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/LR_wheel.STL
+[0.138s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/RF_wheel.STL
+[0.138s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/base_link.STL
+[0.138s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/RR_stering_arm.STL
+[0.138s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/LF_stering_arm.STL
+[0.139s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/Sagan.gazebo
+[0.139s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/ros2_control.xacro
+[0.139s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/parameters
+[0.140s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/parameters/bridge_parameters.yaml
+[0.140s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/parameters/my_controllers.yaml
+[0.140s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/worlds
+[0.141s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/worlds/empty_world.sdf
+[0.141s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/ament_index/resource_index/package_run_dependencies/sagan_description
+[0.142s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/ament_index/resource_index/parent_prefix_path/sagan_description
+[0.142s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/environment/ament_prefix_path.sh
+[0.142s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/environment/ament_prefix_path.dsv
+[0.143s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/environment/path.sh
+[0.143s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/environment/path.dsv
+[0.144s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/local_setup.bash
+[0.144s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/local_setup.sh
+[0.145s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/local_setup.zsh
+[0.145s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/local_setup.dsv
+[0.148s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/package.dsv
+[0.148s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/ament_index/resource_index/packages/sagan_description
+[0.148s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/cmake/sagan_descriptionConfig.cmake
+[0.148s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/cmake/sagan_descriptionConfig-version.cmake
+[0.149s] -- Up-to-date: /home/mene/sagan_description/install/sagan_description/share/sagan_description/package.xml
+[0.149s] Invoked command in '/home/mene/sagan_description/build/sagan_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mene/sagan_description/build/sagan_description

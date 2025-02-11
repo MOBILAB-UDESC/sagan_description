@@ -1,0 +1,73 @@
+[0.026s] Invoking command in '/home/mene/sagan_description/build/sagan_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/mene/sagan_description -DCMAKE_INSTALL_PREFIX=/home/mene/sagan_description/install/sagan_description
+[0.765s] -- The C compiler identification is GNU 13.3.0
+[1.343s] -- The CXX compiler identification is GNU 13.3.0
+[2.059s] -- Detecting C compiler ABI info
+[2.252s] -- Detecting C compiler ABI info - done
+[2.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.262s] -- Detecting C compile features
+[2.262s] -- Detecting C compile features - done
+[2.313s] -- Detecting CXX compiler ABI info
+[2.544s] -- Detecting CXX compiler ABI info - done
+[2.551s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.552s] -- Detecting CXX compile features
+[2.552s] -- Detecting CXX compile features - done
+[2.597s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.764s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.944s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.265s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.265s] -- Configured cppcheck include dirs: 
+[3.266s] -- Configured cppcheck exclude dirs and/or files: 
+[3.268s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.268s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.269s] -- Added test 'lint_cmake' to check CMake code style
+[3.272s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.277s] -- Added test 'uncrustify' to check C / C++ code style
+[3.278s] -- Configured uncrustify additional arguments: 
+[3.279s] -- Added test 'xmllint' to check XML markup files
+[3.282s] -- Configuring done (3.2s)
+[3.286s] -- Generating done (0.0s)
+[3.291s] -- Build files have been written to: /home/mene/sagan_description/build/sagan_description
+[3.301s] Invoked command in '/home/mene/sagan_description/build/sagan_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/mene/sagan_description -DCMAKE_INSTALL_PREFIX=/home/mene/sagan_description/install/sagan_description
+[3.303s] Invoking command in '/home/mene/sagan_description/build/sagan_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mene/sagan_description/build/sagan_description -- -j8 -l8
+[3.344s] Invoked command in '/home/mene/sagan_description/build/sagan_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mene/sagan_description/build/sagan_description -- -j8 -l8
+[3.355s] Invoking command in '/home/mene/sagan_description/build/sagan_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mene/sagan_description/build/sagan_description
+[3.363s] -- Install configuration: ""
+[3.363s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/launch
+[3.364s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/launch/gazebo_model.launch.py
+[3.364s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model
+[3.365s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/Sagan.xacro.urdf
+[3.365s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes
+[3.365s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/LF_wheel.STL
+[3.379s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/RF_stering_arm.STL
+[3.390s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/Right_arm.STL
+[3.421s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/LR_stering_arm.STL
+[3.429s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/RR_wheel.STL
+[3.436s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/Left_arm.STL
+[3.462s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/LR_wheel.STL
+[3.467s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/RF_wheel.STL
+[3.471s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/base_link.STL
+[3.504s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/RR_stering_arm.STL
+[3.526s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/meshes/LF_stering_arm.STL
+[3.543s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/Sagan.gazebo
+[3.543s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/model/ros2_control.xacro
+[3.543s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/parameters
+[3.543s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/parameters/bridge_parameters.yaml
+[3.543s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/parameters/my_controllers.yaml
+[3.544s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/worlds
+[3.544s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/worlds/empty_world.sdf
+[3.544s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/ament_index/resource_index/package_run_dependencies/sagan_description
+[3.546s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/ament_index/resource_index/parent_prefix_path/sagan_description
+[3.546s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/environment/ament_prefix_path.sh
+[3.546s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/environment/ament_prefix_path.dsv
+[3.546s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/environment/path.sh
+[3.547s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/environment/path.dsv
+[3.548s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/local_setup.bash
+[3.548s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/local_setup.sh
+[3.548s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/local_setup.zsh
+[3.548s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/local_setup.dsv
+[3.548s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/package.dsv
+[3.549s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/ament_index/resource_index/packages/sagan_description
+[3.549s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/cmake/sagan_descriptionConfig.cmake
+[3.549s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/cmake/sagan_descriptionConfig-version.cmake
+[3.549s] -- Installing: /home/mene/sagan_description/install/sagan_description/share/sagan_description/package.xml
+[3.551s] Invoked command in '/home/mene/sagan_description/build/sagan_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mene/sagan_description/build/sagan_description
