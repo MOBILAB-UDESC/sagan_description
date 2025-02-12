@@ -43,6 +43,28 @@
         <material>Gazebo/Black</material>
     </gazebo>
 
-    
-
+    <gazebo reference="body_link">
+        <sensor name="gpu_lidar" type="gpu_lidar">
+            <pose>0 0 0.4 0 0 0</pose>
+            <update_rate>10</update_rate>
+            <topic>lidar</topic>
+            <lidar>
+                <scan>
+                    <horizontal>
+                        <samples>720</samples>
+                        <resolution>1</resolution>
+                        <min_angle>-3.14</min_angle>
+                        <max_angle>3.14</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.1</min>
+                    <max>30.0</max>
+                    <resolution>0.01</resolution>
+                </range>
+            </lidar>
+            <always_on>true</always_on>
+            <visualize>true</visualize>
+        </sensor>
+    </gazebo>
 </robot>
