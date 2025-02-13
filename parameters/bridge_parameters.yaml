@@ -25,7 +25,7 @@
   gz_type_name: "gz.msgs.Pose_V"
   direction: GZ_TO_ROS
 
- #ros topic subscribed to by DiffDrive plugin
+#ros topic subscribed to by DiffDrive plugin
 #- ros_topic_name: "cmd_vel"
 #  gz_topic_name: "cmd_vel"
 #  ros_type_name: "geometry_msgs/msg/Twist" 

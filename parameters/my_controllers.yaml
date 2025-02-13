@@ -8,8 +8,8 @@ controller_manager:
 diff_drive_base_controller:
   ros__parameters:
       type: diff_drive_controller/DiffDriveController
-      left_wheel_names: ["LF_wheel_joint"]
-      right_wheel_names: ["RF_wheel_joint"]
+      left_wheel_names: ["RF_wheel_joint", "RR_wheel_joint"]
+      right_wheel_names: ["LF_wheel_joint", "LR_wheel_joint"]
       odom_frame_id: odom
       base_frame_id: base_footprint
       wheel_separation_multiplier: 1.0
