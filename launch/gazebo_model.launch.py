@@ -37,7 +37,7 @@ def generate_launch_description():
         package='controller_manager',
         executable='spawner',
         arguments=[
-            'diff_drive_base_controller',
+            'sagan_drive_controller',
             '--param-file',
             os.path.join(get_package_share_directory("sagan_description"), "parameters/my_controllers.yaml"),
             ],
