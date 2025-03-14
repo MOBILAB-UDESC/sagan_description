@@ -39,7 +39,7 @@ def generate_launch_description():
         arguments=[
             'sagan_drive_controller',
             '--param-file',
-            os.path.join(get_package_share_directory("sagan_description"), "parameters/my_controllers.yaml"),
+            os.path.join(get_package_share_directory("sagan_description"), "parameters/sagan_controllers_parameters.yaml"),
             ],
     )
     

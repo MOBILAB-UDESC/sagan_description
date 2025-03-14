@@ -157,7 +157,7 @@
   </link>
   <joint
     name="LF_stering_arm_joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="-0.185 -0.031 0.04225"
       rpy="0 -1.5708 0" />
@@ -263,7 +263,7 @@
   </link>
   <joint
     name="LR_stering_arm_joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="0.185 -0.031 0.04225"
       rpy="0 1.5708 0" />
@@ -422,7 +422,7 @@
   </link>
   <joint
     name="RF_stering_arm_joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="0.185 -0.031 0.04225"
       rpy="3.1416 1.5708 3.1416" />
@@ -528,7 +528,7 @@
   </link>
   <joint
     name="RR_stering_arm_joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="-0.185 -0.031 0.04225"
       rpy="0 -1.5708 0" />

@@ -10,6 +10,7 @@
                 <param name="min">-10</param>
                 <param name="max">10</param>
             </command_interface>
+            <command_interface name="position" />
             <state_interface name="velocity" />
             <state_interface name="position"/>
         </joint>
@@ -19,6 +20,7 @@
                 <param name="min">-10</param>
                 <param name="max">10</param>
             </command_interface>
+            <command_interface name="position" />
             <state_interface name="velocity" />
             <state_interface name="position"/>
         </joint>
@@ -28,6 +30,7 @@
                 <param name="min">-10</param>
                 <param name="max">10</param>
             </command_interface>
+            <command_interface name="position" />
             <state_interface name="velocity" />
             <state_interface name="position"/>
         </joint>
@@ -37,6 +40,47 @@
                 <param name="min">-10</param>
                 <param name="max">10</param>
             </command_interface>
+            <command_interface name="position" />
+            <state_interface name="velocity" />
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="LF_stering_arm_joint">
+            <command_interface name="velocity">
+                <param name="min">-10</param>
+                <param name="max">10</param>
+            </command_interface>
+            <command_interface name="position" />
+            <state_interface name="velocity" />
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="RF_stering_arm_joint">
+            <command_interface name="velocity">
+                <param name="min">-10</param>
+                <param name="max">10</param>
+            </command_interface>
+            <command_interface name="position" />
+            <state_interface name="velocity" />
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="LR_stering_arm_joint">
+            <command_interface name="velocity">
+                <param name="min">-10</param>
+                <param name="max">10</param>
+            </command_interface>
+            <command_interface name="position" />
+            <state_interface name="velocity" />
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="RR_stering_arm_joint">
+            <command_interface name="velocity">
+                <param name="min">-10</param>
+                <param name="max">10</param>
+            </command_interface>
+            <command_interface name="position" />
             <state_interface name="velocity" />
             <state_interface name="position"/>
         </joint>
@@ -44,7 +88,7 @@
 
     <gazebo>
         <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-            <parameters>$(find sagan_description)/parameters/my_controllers.yaml</parameters>
+            <parameters>$(find sagan_description)/parameters/sagan_controllers_parameters.yaml</parameters>
         </plugin>
     </gazebo>
 </robot>
