@@ -28,9 +28,9 @@ sagan_drive_controller:
      - RR_stering_arm_joint
     
     command_interfaces: 
-      - velocity
       - position
-    
+      - velocity
+
     state_interfaces:
       - position
       - velocity
