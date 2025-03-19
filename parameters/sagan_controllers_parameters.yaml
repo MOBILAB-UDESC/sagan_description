@@ -31,6 +31,12 @@ sagan_drive_controller:
       - position
       - velocity
 
+    wheel_command_interfaces:
+      - velocity
+    
+    steering_command_interfaces:
+      - position
+
     state_interfaces:
       - position
       - velocity
